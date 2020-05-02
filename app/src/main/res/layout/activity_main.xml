@@ -25,9 +25,10 @@
             android:id="@+id/btn_gotoCommentID"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Comments"
+            android:text="Next"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
+            android:drawableEnd="@drawable/ic_arrow_forward_white_32dp"
             android:background="@color/colorPrimaryDark"
             android:layout_weight="1"/>
     </LinearLayout>

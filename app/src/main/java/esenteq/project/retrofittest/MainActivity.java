@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         btnGotoComment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btnGotoComment.setBackgroundResource(R.color.colorBlack);
                 startActivity(new Intent(MainActivity.this, CommentActivity.class));
                 finish();
             }
